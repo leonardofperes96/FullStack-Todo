@@ -1,0 +1,30 @@
+.container {
+  color: var(--white);
+}
+
+.header {
+  max-width: var(--max-width);
+  width: 90vw;
+  height: 5rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo, .link{
+  transition: 0.3s;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.link {
+  font-size: 1.25rem;
+}
+
+.logo:hover,
+.link:hover {
+  color: var(--green);
+}
